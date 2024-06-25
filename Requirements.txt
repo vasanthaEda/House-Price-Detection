@@ -1,0 +1,40 @@
+To run this project, you will need the following dependencies:
+
+- Python 3.8 or higher
+- Jupyter Notebook
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- xgboost
+
+Installation:
+
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/your-username/house-prices-detection.git
+
+2. Navigate to the project directory.
+cd house-prices-detection
+
+3. Create a virtual environment and activate it.
+python -m venv venv
+source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+
+4. Install the required packages.
+pip install -r requirements.txt
+
+5. Run the Jupyter Notebook
+jupyter notebook
+
+
+Usage:
+Open the House_prices_detection.ipynb notebook and run the cells sequentially to perform the house price prediction analysis.
+
+License:
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgements: 
+The scikit-learn library for providing robust machine learning tools.
+Matplotlib and Seaborn for their powerful visualization libraries.
